@@ -6,25 +6,25 @@ Este repositorio contiene el código y los datos utilizados para el trabajo de g
 
 ### Archivos principales
 
-- `conexion_api_scrapeo.ipynb`: Código para conexión con la API de Meta y proceso de scrapeo de anuncios políticos.
-- `ocr_y_whisper.ipynb`: Procesamiento de imágenes y audios utilizando OCR (Tesseract) y Whisper de OpenAI para extraer texto de los anuncios.
-- `aplicacion_librerias.ipynb`: Aplicación de modelos de lenguaje y herramientas NLP para limpieza, tokenización y análisis textual.
-- `regresion_logistica.ipynb`: Análisis cuantitativo mediante regresión logística para identificar factores asociados a la presencia de desinformación.
-- `graficacion.ipynb`: Visualización de datos para comunicar hallazgos clave.
+- `1. Conexión_API_Facebook`: Código para conexión con la API de Meta y proceso de scrapeo de anuncios políticos.
+- `2.TranscripciónWhisperOCR`: Procesamiento de imágenes y audios utilizando OCR (Tesseract) y Whisper de OpenAI para extraer texto de los anuncios.
+- `3.Aplicacióndelibrerías_ipynb`: Aplicación de modelos de lenguaje y herramientas NLP para limpieza, tokenización y análisis textual.
+- `4.Regresión_logística_Desinformación`: Análisis cuantitativo mediante regresión logística para identificar factores asociados a la presencia de desinformación.
+- `5.Graficación`: Visualización de datos para comunicar hallazgos clave.
 
 ### Datasets incluidos
 
-- `candidatos_consolidado.csv`: Base de datos con los anuncios publicados directamente por candidatos a la Alcaldía.
-- `paginas_consolidado.csv`: Base de datos con anuncios publicados por páginas que apoyaban a candidatos o temas asociados.
+- `Candidatos_probabilidad_consolidado.csv`: Base de datos con los anuncios publicados directamente por candidatos a la Alcaldía.
+- `Páginas_probabilidad_consolidado.csv`: Base de datos con anuncios publicados por páginas que apoyaban a candidatos o temas asociados.
 
 ## 🔍 Objetivo del estudio
 
-El proyecto busca identificar si existen patrones de segmentación diferenciada (por edad, sexo y región) en anuncios con características desinformativas y qué candidatos o páginas los implementaron. Se aplican modelos de lenguaje, clasificación y análisis estadístico.
+En este orden de ideas, este trabajo busca analizar el papel de los anuncios pagos en la propagación de información falsa, manipulada o inexacta durante la campaña para la Alcaldía de Medellín en 2023. Los objetivos específicos buscan 1) examinar cómo los candidatos segmentaron sus anuncios para impulsar sus publicaciones, 2) identificar el contenido pautado que contenía información manipulada, falsa o errónea y 3) describir las estrategias relacionadas con el lenguaje utilizado en la difusión de desinformación durante las elecciones.
 
 ## 🧰 Herramientas utilizadas
 
 - Python 3.10
-- Librerías: `pandas`, `numpy`, `matplotlib`, `seaborn`, `sklearn`, `transformers`, `spanlp`, `tesseract`, `whisper`, entre otras.
+- Librerías: `pandas`, `numpy`, `matplotlib`, `seaborn`, `sklearn`, `transformers`, `spanlp`, `whisper`, entre otras.
 - Modelos: RoBERTuito, clasificación fine-tuned.
 - Plataformas: Meta Ad Library API, Google Colab.
 
@@ -44,11 +44,9 @@ El proyecto busca identificar si existen patrones de segmentación diferenciada 
 
 ## 🧑‍💻 Autora
 
-**María Camila [Tu Apellido]**  
-Comunicadora social – Trabajo de grado presentado para [Nombre de tu universidad]  
+**María Camila Marín Álvarz**  
+Comunicadora social – Trabajo de grado presentado para obtener el título de Politóloga]  
 2025
 
 ---
-
-Si encuentras útil este repositorio, no dudes en darle ⭐ o compartirlo.
 
