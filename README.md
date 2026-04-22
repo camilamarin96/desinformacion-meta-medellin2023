@@ -12,7 +12,7 @@ Este repositorio contiene el código y los datos utilizados para el trabajo de g
 - `4.Regresión_logística_Desinformación`: Análisis cuantitativo mediante regresión logística para identificar factores asociados a la presencia de desinformación.
 - `5.Graficación`: Visualización de datos para comunicar hallazgos clave.
 - `6.Metricas_validacion_cruzada`: Evaluación extendida del modelo de regresión logística mediante validación cruzada estratificada.
--`7.Reproduccion_Analisis_Desinformacion`: Pipeline de reproducibilidad  diseñado para que evaluadores externos puedan replicar los resultados principales del estudio.
+- `7.Reproduccion_Analisis_Desinformacion`: Pipeline de reproducibilidad  diseñado para que evaluadores externos puedan replicar los resultados principales del estudio.
 
 ### Datasets incluidos
 
