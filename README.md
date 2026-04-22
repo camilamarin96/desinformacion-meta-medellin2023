@@ -18,6 +18,7 @@ Este repositorio contiene el código y los datos utilizados para el trabajo de g
 
 - `Candidatos_probabilidad_consolidado.csv`: Base de datos con los anuncios publicados directamente por candidatos a la Alcaldía.
 - `Páginas_probabilidad_consolidado.csv`: Base de datos con anuncios publicados por páginas que apoyaban a candidatos o temas asociados.
+- `Aleatorizacion-DataSetCompleto (1) (1)-2.xlsx`: Base de datos con anuncios clasificados después de la aplicación de librerías
 
 ## 🔍 Objetivo del estudio
 
